@@ -1,0 +1,7 @@
+ck_layouts.test:
+  path: '/cklayouts/test'
+  defaults:
+    _controller: '\Drupal\ck_layouts\Controller\CKLayoutsController::test'
+    _title: 'CK Layouts test'
+  requirements:
+    _permission: 'access content'

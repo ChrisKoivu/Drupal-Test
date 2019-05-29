@@ -1,0 +1,5 @@
+div.left-region, div.center-region, div.right-region {
+    width:30%;
+    float: left;
+    padding: 5px;
+}

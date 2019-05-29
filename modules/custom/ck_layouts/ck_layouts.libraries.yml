@@ -1,0 +1,7 @@
+ck_layouts_library:
+  version: 1.x
+  css:
+    theme: 
+      css/ck_layouts_library.css: {}
+
+

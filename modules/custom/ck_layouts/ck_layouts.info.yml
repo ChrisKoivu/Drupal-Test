@@ -1,0 +1,8 @@
+type: module
+name: Ck Layouts
+description: 'Custom Layouts using Layout API'
+package: Theming
+version: '8.x-1.0'
+core: '8.x'
+libraries:
+  - ck_layouts/ck_layouts_library

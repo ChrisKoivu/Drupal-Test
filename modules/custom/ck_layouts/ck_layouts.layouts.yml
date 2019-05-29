@@ -1,0 +1,37 @@
+one_column_left_sidebar:
+  label: 'One column with left sidebar'
+  category: 'CK Layouts'
+  template: templates/one-column-left-sidebar
+  library: ck_layouts_library
+  default_region: main
+  regions:
+    left_sidebar: 
+      label: Left sidebar
+    main:
+      label: Main content
+
+one_column_right_sidebar:
+  label: 'One column with right sidebar'
+  category: 'CK Layouts'
+  template: templates/one-column-right-sidebar
+  library: ck_layouts_library
+  default_region: main
+  regions:   
+    main:
+      label: Main content
+    right_sidebar: 
+      label: Right sidebar
+
+three_column:
+  label: 'Three column'
+  category: 'CK Layouts'
+  template: templates/three-column
+  library: ck_layouts_library
+  default_region: main
+  regions:
+    left:
+      label: Left
+    center:
+      label: Center
+    right:
+      label: Right

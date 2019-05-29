@@ -1,0 +1,5 @@
+name: Testing
+type: module
+description: testing adding a theme library
+package: Custom
+core: 8.x

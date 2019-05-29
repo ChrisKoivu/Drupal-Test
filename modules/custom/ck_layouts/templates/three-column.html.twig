@@ -1,0 +1,25 @@
+<style>
+
+    
+    div.left-region, div.center-region, div.right-region{
+     width:30%;
+     float: left;
+     padding:10px;
+
+  }
+
+</style>
+{{ attach_library('ck_layouts/ck_layouts_library') }}
+
+<div class="three-column">
+    <div class="left-region">
+      {{ content.left }}
+    </div>
+    <div class="center-region">
+      {{ content.center }}
+    </div>
+    <div class="right-region">
+      {{ content.right }}
+    </div>
+</div>
+  
